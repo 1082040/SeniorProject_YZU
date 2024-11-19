@@ -18,16 +18,22 @@ Input Format
 Number of vertices (n).
 Number of edges (Edges).
 Each edge represented by two vertices (v1, v2).
-Example Input
+
+Example Input:
+
 4
 4
 1 2
 2 3
 3 4
 4 1
-Example Output
+
+Example Output:
+
 0-1 2-3 
+
 Execution Time: 0.002S
+
 2. Eulerian Path Finder
 Description
 This program finds an Eulerian path or circuit in a graph, which traverses every edge exactly once. It uses a depth-first search (DFS) approach.
@@ -39,26 +45,35 @@ Outputs the path in sequence.
 Input Format
 Number of edges (m).
 Each edge represented by two vertices (a, b).
-Example Input
+
+Example Input:
+
 5
 1 2
 2 3
 3 4
 4 1
 1 3
-Example Output
+
+Example Output:
+
 1->3->2->1->4->3
+
 How to Compile and Run
 Use a C++ compiler like g++ to compile the programs:
 
 bash
+
 g++ -o HamiltonianCycle HamiltonianCycleFinder.cpp
 g++ -o EulerianPath EulerianPathFinder.cpp
+
 Run the executables:
 
 bash
+
 ./HamiltonianCycle
 ./EulerianPath
+
 Provide the required inputs as prompted.
 
 Notes
