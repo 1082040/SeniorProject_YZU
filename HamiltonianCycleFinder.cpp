@@ -98,6 +98,6 @@ int main()
         a[v2]++;
     }
     g2.hamCycle(graph1);
-    cout << "°õ¦æ®É¶¡" << (double)clock() / CLOCKS_PER_SEC << "S" << endl;
+    cout << "Â°ÃµÂ¦Ã¦Â®Ã‰Â¶Â¡" << (double)clock() / CLOCKS_PER_SEC << "S" << endl;
     return 0;
 }
